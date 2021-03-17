@@ -4,8 +4,14 @@
 
 An application to test a firebase functionality.
 
-The video included is for a real esatate developer called Emaar Egypt, can be replaced with a slider or a gallery
+Video can be replaced with a slider or a gallery
 
 ### TODO
 
 Use other methods of saving the contact information
+
+**PHP**
+**Node.js**
+**MongoDB**
+
+Remember to link another video in the html.
