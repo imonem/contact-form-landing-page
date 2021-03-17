@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Real Estate Landing Page</title>
+</head>
+<header class="nav-container">
+        <a href="http://realestate-staging.oolers.com"><img id="logo" src="./logo.png" alt="Egypt developments realestate"></a>
+        <a href="http://ar.realestate-staging.oolers.com" id="lang">عربي</a>
+</header>
+
+<body>
+    <div class="container animate__animated animate__bounceInRight">
+        <video class="video-container" controls autoplay muted>
+            <source src="videos/اطلاق مشروع جديد اعمار مصر _ belle vie emaar Misr Egypt-vY6GtyMqstg.webm"
+                type="video/webm">
+            Your browser does not support this video type
+        </video>
+    </div>
+    <div class="wrapper animate__animated animate__bounceInLeft">
+        <!-- Company info -->
+        <div class="company-info">
+            <h3>Real Estate Company</h3>
+            <ul>
+                <li><i class="fa fa-road"></i> Abbas El Akkad Bitza Hut</li>
+                <li><i class="fa fa-phone"></i> 010 100 1100</li>
+                <li><i class="fa fa-envelope"></i> something@anything.com</li>
+            </ul>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact">
+            <h3>Email Us</h3>
+            <div class="alert">Your Message has been sent</div>
+            <form id="contactForm">
+                <p>
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="">Email Address</label>
+                    <input type="email" name="Email" id="email">
+                </p>
+                <p>
+                    <label for="">Mobile Number</label>
+                    <input type="number" name="number" id="mobile">
+                </p>
+                <p>
+                    <label for="">Unit Type</label>
+                    <select name="name" id="type">
+                        <optgroup label="اختر نوع الوحدة">
+                            <option>شقة سكنية </option>
+                            <option>منزل </option>
+                            <option>فيلا مشتركة </option>
+                            <option>فيلا </option>
+                            <option>شاليه </option>
+                            <option>تجارى </option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p class="full">
+                    <label>Notes</label>
+                    <textarea class="full" notes" rows="5" id="notes"></textarea>
+                </p>
+                <p class="full">
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="description-container">
+        <h3><span>Belle Vie</span> Emmar Misr New Zayed</h3>
+        <article class="description">
+            A new life by Emaar Misr is coming Soon to New Zayed. Belle Vie, 500 Acres of impeccably planned, mixed-use,
+            exclusive lifestyle development. Introducing integrated urban living at its best, inspired by timeless
+            European architecture, with a master plan that is interconnected with a valley, lush open spaces and an
+            array of unique amenities that cater to your every need. The story of beautiful living is about to be told,
+            A new life by Emaar Misr, Stay tuned.
+
+            What is the location of the project? “Belle vie” in , 6th Of october city, french inspired architecture 2025
+            , 500 Acres ‘ Directly on Dabaa Corridor Sahrawy – 1.5 KM from Beverly Hills
+        </article>
+    </div>
+    <!-- footer todo!! -->
+    <div class="footer-container">
+        <footer>&copy2021 iMonem</footer>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
