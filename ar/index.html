@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>شركة تسويق عقاري</title>
+</head>
+<header class="container">
+    <nav class="nav-bar">
+        <a href="http://realestate-staging.oolers.com">الشعار</a>
+        <a href="http://realestate-staging.oolers.com" id="lang">English</a>
+    </nav>
+</header>
+
+<body>
+    <div class="container animate__animated animate__bounceInRight">
+        <video class="video-container" controls autoplay muted>
+            <source src="videos/اطلاق مشروع جديد اعمار مصر _ belle vie emaar Misr Egypt-vY6GtyMqstg.webm"
+                type="video/webm">
+            المتصفح لا يدعم هيئة الملفات
+        </video>
+    </div>
+    <div class="wrapper animate__animated animate__bounceInLeft">
+        <!-- Company info -->
+        <div class="company-info">
+            <h3>شركة التسويق العقاري</h3>
+            <ul>
+                <li><i class="fa fa-road"></i> عباس العقاد بيتزا هات</li>
+                <li><i class="fa fa-phone"></i> 010 100 1100</li>
+                <li><i class="fa fa-envelope"></i> something@anything.com</li>
+            </ul>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact">
+            <h3>تواصل معنا</h3>
+            <div class="alert">تم ارسال طلب التواصل بنجاح</div>
+            <form id="contactForm">
+                <p>
+                    <label for="">الأسم</label>
+                    <input type="text" name="name" id="name">
+                </p>
+                <p>
+                    <label for="">الإيميل</label>
+                    <input type="email" name="Email" id="email">
+                </p>
+                <p>
+                    <label for="">رقم الموبايل</label>
+                    <input type="number" name="number" id="mobile">
+                </p>
+                <p>
+                    <label for="">نوع الوحدة المطلوبة</label>
+                    <select name="name" id="type">
+                        <optgroup label="اختر نوع الوحدة">
+                            <option>شقة سكنية </option>
+                            <option>منزل </option>
+                            <option>فيلا مشتركة </option>
+                            <option>فيلا </option>
+                            <option>شاليه </option>
+                            <option>تجارى </option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p class="full">
+                    <label>ملاحظات</label>
+                    <textarea class="full" notes" rows="5" id="notes"></textarea>
+                </p>
+                <p class="full">
+                    <button type="submit">إرسال الطلب</button>
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="description-container">
+        <h3><span>بل في</span> إعمار مصر زايد الجديدة</h3>
+        <article class="description">
+            حياة جديدة من إعمار مصر قادمة قريباً في زايد الجديدة. Belle Vie ،٥٠٠ فدان من التخطيط الدقيق، متعدد
+            الاستخدامات، تطوير نمط حياة حصري. تقديم الحياة الحضرية المتكاملة في أفضل حالاتها، المستوحاة من الهندسة
+            المعمارية الأوروبية الخالدة، مع مخطط رئيسي متصل بوادي، ومساحات مفتوحة مورقة ومجموعة من وسائل الراحة
+            الفريدة التي تلبي جميع احتياجاتك. قصة الحياة الجميلة على وشك أن تُروى، حياة جديدة من إعمار مصر، ترقبوا. ما
+            هو موقع المشروع؟ “Belle vie” في مدينة السادس من أكتوبر، الهندسة المعمارية الفرنسية المستوحاة من ٢٠٢٥، ٥٠٠
+            فدان مباشرة على ممر الضبعة الصحراوي - ١٫٥ كم من بيفرلي هيلز
+        </article>
+    </div>
+    <!-- footer todo!! -->
+    <div class="footer-container">
+        <footer>&copy2021 iMonem</footer>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
