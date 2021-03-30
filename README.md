@@ -2,7 +2,7 @@
 
 ## Overview
 
-An application to test a firebase functionality.
+A light mobile-first landing page/application to test a firebase functionality.
 
 Video can be replaced with a slider or a gallery
 
